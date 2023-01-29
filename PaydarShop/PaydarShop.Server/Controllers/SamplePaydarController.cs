@@ -10,6 +10,7 @@ namespace PaydarShop.Server.Controllers
     public class SamplePaydarController : BaseApiControllerWithDatabase
     {
         //in yek test
+        //in az github
         public SamplePaydarController(Data.IUnitOfWork unitOfWork ) : base(unitOfWork)
         {
             
