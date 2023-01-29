@@ -9,9 +9,10 @@ namespace PaydarShop.Server.Controllers
 {
     public class SamplePaydarController : BaseApiControllerWithDatabase
     {
+        //in yek test
         public SamplePaydarController(Data.IUnitOfWork unitOfWork ) : base(unitOfWork)
         {
-
+            
         }
         //[Infrastructure.Attribute.Authorize(Role ="admin")]
         [Microsoft.AspNetCore.Mvc.HttpGet]
